@@ -27,17 +27,19 @@
                 <h2 class="lg:text-4xl uppercase font-bold md:lg:text-4xl text-2xl"><span class="text-[#A4BC46]">Penguin</span> Fashion</h2>
             </div>
             <div>
-                <div class="p-6">
+                <div class="p-6 sm:hidden block">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                       </svg>
                 </div>  
-                <ul class="flex gap-12 text-base font-bold hidden">
-                    <li>Home</li>
-                    <li>Product</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
+
+                    <ul class="sm:flex hidden gap-12 text-base font-bold">
+                        <li>Home</li>
+                        <li>Product</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                    </ul>
+
             </div>
         </nav>
         <!-- Start Bannar Section  -->
@@ -180,7 +182,10 @@
                 </div>
             </div>
         </section>
-        <section class="py-20 flex justify-between gap-7 items-center flex-col px-6">
+
+        <!-- Footer Section  -->
+
+        <section class="py-20 flex justify-between gap-7 items-center px-6 flex-col lg:flex-row">
             <div class="space-y-7">
                 <div class="p-10 bg-[#FFF] rounded-3xl drop-shadow-lg">
                     <div class="flex gap-7">
